@@ -1,0 +1,28 @@
+name: SURE
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.11
+  - numpy>=1.26
+  - scipy>=1.13
+  - matplotlib>=3.8
+  - scikit-learn>=1.5.1
+  - tqdm
+  # - pygwalker
+  - pandas
+  - tslearn
+  # - optuna
+  - scikit-optimize
+  - pygad
+    # Pytorch on Linux
+  - pytorch>=2.2.0
+  # - torchvision>=0.17.0
+  # - torchaudio>=2.2.0
+  - pytorch-cuda=12.1
+  - torchinfo>=1.5.0
+  - torchdata>=0.7.1
+    # Jupyter Kernel
+  - ipykernel

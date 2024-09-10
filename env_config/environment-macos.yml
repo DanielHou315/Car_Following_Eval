@@ -1,0 +1,28 @@
+name: SURE
+channels:
+  # - pytorch-nightly
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.12
+  - numpy>=1.26
+  - scipy>=1.13
+  - libtiff
+  - matplotlib>=3.8
+  - scikit-learn>=1.4.2
+  - tqdm
+  - pygwalker
+  - pandas
+  - tslearn
+  - scikit-optimize
+  - pygad
+  # - optuna
+  # Pytorch on macOS
+  - pytorch-nightly::pytorch
+  # - torchvision
+  # - torchaudio
+  - torchinfo>=1.5.0
+  - torchdata>=0.7.1
+  # Jupyter Kernel
+  - jupyterlab
+  - ipykernel
